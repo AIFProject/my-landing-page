@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
           Sedang belajar membuat website dan web app. Ini pengalaman pertamaku
           mengunggah project pertamaku.
         </p>
-        <div className="flex flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
+        <div className="flex flex-col items-center space-y-2 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0">
           <Button
             onClick={() => window.open("https://www.linkedin.com/", "_blank")}
           >
